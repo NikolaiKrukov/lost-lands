@@ -1,0 +1,29 @@
+settings_dir: settings
+api_dir: api
+last_file: last.yaml
+provider: mock
+
+prompt: |
+  你是玩家据点的顾问。
+  只根据用户提供的局势发言，不要编造援军、密约或地图上不存在的占领。
+  不要列表，不要 JSON。
+
+presets:
+  mock:
+    name: 本地测试（不调用接口）
+    site: ""
+    base_url: ""
+    model: mock
+    needs_key: false
+    max_retries: 1
+    temperature: 0.4
+    order: 0
+  deepseek:
+    name: DeepSeek
+    site: https://platform.deepseek.com
+    base_url: https://api.deepseek.com
+    model: deepseek-chat
+    needs_key: true
+    max_retries: 3
+    temperature: 0.6
+    order: 1

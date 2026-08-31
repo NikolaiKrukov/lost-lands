@@ -1,0 +1,19 @@
+default_difficulty: normal
+default_country: 曙光公社
+default_leader: 伊琳娜·生于紫室者
+points_total: 50
+army_per_point: 100
+economy_per_point: 1
+population_per_point: 1000
+points:
+  army: 10
+  economy: 20
+  population: 15
+  stability: 5
+difficulties:
+  - id: easy
+    name: 轻松
+  - id: normal
+    name: 标准
+  - id: hard
+    name: 严酷
