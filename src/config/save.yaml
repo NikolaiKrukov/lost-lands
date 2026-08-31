@@ -1,0 +1,6 @@
+auto_save_every_turn: true
+save_dir: saves
+db_name: game.db
+log_suffix: .log
+rng_seed: 42
+name_prefix: 对局

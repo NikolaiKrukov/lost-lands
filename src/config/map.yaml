@@ -1,0 +1,34 @@
+unowned_nation: world
+hover_lock_ms: 500
+seam:
+  zooms: [1, 6, 11]
+  widths: [0.8, 1.6, 2.6]
+unowned:
+  fill: "#454840"
+  hover: "#565a52"
+lost:
+  fill: "#8d4a40"
+  hover: "#a0564a"
+threat:
+  min: 0
+  max: 5
+  default: 0
+  bands:
+    - id: light
+      name: 轻度威胁
+      min: 0
+      max: 1
+      fill: "#3d6b32"
+      hover: "#4d8340"
+    - id: medium
+      name: 中度威胁
+      min: 2
+      max: 3
+      fill: "#8a7a28"
+      hover: "#a39030"
+    - id: heavy
+      name: 重度威胁
+      min: 4
+      max: 5
+      fill: "#8a3020"
+      hover: "#a43c28"

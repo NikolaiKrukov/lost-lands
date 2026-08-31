@@ -1,0 +1,26 @@
+camera:
+  longitude: -77.8
+  latitude: 40.9
+  zoom: 5
+source: maps/us_canada_admin1.geojson
+output: maps/map.geojson
+countries:
+  - US
+  - CA
+exclude:
+  - US-HI
+simplify: 0.004
+overlap: 0.002
+coord_digits: 4
+attribution: "Natural Earth 10m 一级政区（公有领域）"
+default_nation: world
+kinds:
+  player: home
+  world: foreign
+provinces:
+  pennsylvania:
+    name: 宾夕法尼亚
+    iso: US-PA
+    nation: player
+    port: true
+    capital: true

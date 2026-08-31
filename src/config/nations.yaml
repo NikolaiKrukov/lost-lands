@@ -1,0 +1,15 @@
+nations:
+  player:
+    name: 玩家
+    short_name: 玩家
+    player: true
+    relation: 0
+    fill: "#3f5a3c"
+    fill_hover: "#4d6b48"
+  world:
+    name: 其他地区
+    short_name: 其他
+    player: false
+    relation: 0
+    fill: "#454840"
+    fill_hover: "#565a52"

@@ -1,0 +1,8 @@
+name: DeepSeek
+site: https://platform.deepseek.com
+base_url: https://api.deepseek.com
+model: deepseek-chat
+needs_key: true
+max_retries: 3
+temperature: 0.6
+order: 1

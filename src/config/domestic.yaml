@@ -1,0 +1,41 @@
+actions:
+  industry:
+    category: build
+    name: 扩建工厂
+    cost_money: 4
+    cooldown_days: 4
+    needs_province: true
+    needs_kind: ""
+    needs_port: false
+    effects:
+      - { type: economy, delta: 2 }
+  port:
+    category: build
+    name: 扩建港口
+    cost_money: 5
+    cooldown_days: 6
+    needs_province: true
+    needs_kind: ""
+    needs_port: true
+    effects:
+      - { type: economy, delta: 2 }
+  schools:
+    category: build
+    name: 增加警察
+    cost_money: 3
+    cooldown_days: 6
+    needs_province: true
+    needs_kind: ""
+    needs_port: false
+    effects:
+      - { type: stability, delta: 1 }
+  fortify:
+    category: army
+    name: 加强要塞
+    cost_money: 3
+    cooldown_days: 3
+    needs_province: true
+    needs_kind: ""
+    needs_port: false
+    effects:
+      - { type: fort, delta: 1 }

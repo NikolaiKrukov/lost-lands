@@ -1,0 +1,33 @@
+meta:
+  name: 失落之地
+  version: "0.104"
+
+time:
+  start_turn: 4
+  end_turn: 500
+  display_era_year: 2056
+  turns_per_year: 12
+  days_per_month: 30
+  day_tick_ms: 200
+
+stat:
+  min: 0
+  stability_max: 50
+  relation_max: 100
+  money_per_economy: 0.5
+  start_money: 50.0
+
+army:
+  march_cooldown_days: 10
+  recruit_money_per_army: 0.03
+  recruit_cooldown_days: 3
+
+player:
+  id: player
+  name: ""
+  short_name: ""
+  leader: ""
+
+server:
+  host: 127.0.0.1
+  port: 8010
